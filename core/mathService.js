@@ -1,4 +1,6 @@
-module.exports = class MathService {
+export class MathService {
+  constructor() {}
+
   getFactorialOfNumber = (number) => {
     let total = 1;
     for (let i = 1; i <= number; i++) {
@@ -87,4 +89,4 @@ module.exports = class MathService {
       return acc + number;
     }, 0);
   };
-};
+}

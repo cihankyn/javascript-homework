@@ -1,0 +1,25 @@
+{
+  "name": "javascript-homework",
+  "version": "1.0.0",
+  "description": "Basics of javascript",
+  "main": "./index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cihankyn/javascript-homework.git"
+  },
+  "keywords": [
+    "javascript"
+  ],
+  "author": "Cihan Koyun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cihankyn/javascript-homework/issues"
+  },
+  "homepage": "https://github.com/cihankyn/javascript-homework#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
