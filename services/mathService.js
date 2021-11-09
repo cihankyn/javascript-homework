@@ -1,4 +1,4 @@
-export class MathService {
+export default class MathService {
   constructor() {}
 
   getFactorialOfNumber = (number) => {

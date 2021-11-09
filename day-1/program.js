@@ -1,7 +1,7 @@
-import { MathService } from "../core/mathService.js";
+import MathService from "../services/mathService.js";
 const service = new MathService();
 
-export class FirstDay {
+export default class FirstDay {
   result = "";
   arrOfNumbers = [];
 
